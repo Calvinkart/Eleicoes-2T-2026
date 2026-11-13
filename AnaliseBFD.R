@@ -21,7 +21,7 @@ print(resultado)
 # Carrega a lib
 library(benford.analysis)
 # Roda a análise
-bfd.cp <- benford(df$QT_VOTOS_TOT)
+bfd.tse <- benford(df$QT_VOTOS_TOT)
 
 # Gráfico
-plot(bfd.cp)
+plot(bfd.tse)
